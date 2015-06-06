@@ -1,0 +1,231 @@
+.body-login{
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	background: #f4f4f4;
+	-webkit-animation: nimbul 0.7s;
+	margin: 0;
+	padding: 0;
+}
+
+@-webkit-keyframes nimbul{
+	from{-webkit-transform:scale(0.1)}
+	to{-webkit-transform:scale(1.0)}
+}
+
+/*Login Style*/
+
+.content{
+	margin: 12% auto;
+	width: 350px;
+	background: -webkit-linear-gradient(top, #e5e5e5 50% , #adabab 100%);
+	padding: 20px 20px;
+	border-radius: 3px;
+	box-shadow:  0 0 15px #fff;
+}
+
+.header-login{
+	width: 390px;
+	background: #B4B2B2;
+	margin-left: -20px;
+	box-shadow:  0 0 15px #fff;
+	border-radius: 3px 0 0 0;
+	margin-top: -20px;
+	height: 50px;
+}
+
+.exit{
+	width: 140px;
+	margin-top: 2px;
+	margin-left: -15px;
+}
+
+.title-login{
+	margin-left: 120px;
+	margin-top: -43px;
+	background: #bfbdbd;
+	color: #fff;
+	padding: 7px;
+	text-align: center;
+	border-radius: 15px 0 15px 0;
+	width: 240px;
+	text-shadow: 0 0 1px #000;
+}
+
+form{
+	margin-top: 18px;
+}
+
+h2{
+	text-align: center;
+	color: #fff;
+	background-color: #f0ad4e;
+	border-color: #eea236;
+	padding: 10px 0 10px 0;
+}
+
+.not-login{
+	background-color: #c9302c;
+	border-color: #ac2925;
+	color: #fff;
+	padding: 7px 8px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.not-login b{
+	text-decoration: underline;
+}
+
+.form-login input{
+	margin-top: 10px;
+	outline: none;
+	padding: 5px 5px;
+	font-size: 14px;
+	margin-left: 10px;
+	transition:0.6s;
+	width: 182px;
+	border: 1px solid #ccc;
+}
+
+.form-login input:focus{
+	border: 1px solid #428bca;
+	transition:0.6s;
+	font-size: 14px;
+	padding: 5px 5px;
+	width: 230px; 
+	outline: none;
+	box-shadow: 0 0 3px #428bca;
+}
+
+.form-login label{
+	font-size: 16px;
+	font-weight: none;
+}
+
+.form-login button{
+	background-color: #428bca;
+	border: 1px solid #357ebd;
+	outline: none;
+	color: #fff;
+	padding: 7px 10px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+h6{
+	background: #1f67a3;
+	margin-top: 11px;
+	padding-left: 15px;
+	color: #fff;
+	font-size: 12px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 200px;
+	padding: 8px;
+	border-radius: 2px;
+	margin-right: 15px;
+	float: right;
+}
+
+h6 b{
+	text-decoration: underline;
+}
+
+h6 a{
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 3px;
+}
+
+h6 a:hover{
+	text-decoration: underline;
+	transition: 0.6s;
+}
+
+footer{
+	margin: 0 auto;
+	margin-top: -100px;	
+	margin-left: 530px;
+}
+
+.logo{
+	width: 100px;
+	margin-left: 100px;
+}
+
+.copyright{
+	text-align: left;
+}
+
+
+/*Index Page*/
+
+.body-index{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: #428bca;
+	border: 1px solid #357ebd;
+	height: 50px;
+	padding: 0;
+}
+
+nav ul{
+	list-style: none;
+	margin-top: 9px;
+}
+
+nav ul:after{
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+nav ul li{
+	float: left;
+	position: relative;
+}
+
+nav ul li a{
+	color: #fff;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	padding: 7px 35px;
+	display: block;
+}
+
+nav ul ul{
+	position: absolute;
+	display: none;
+	background: #428BCA;
+	width: 162px;
+	margin: 0; 
+	padding: 0;
+	float: left;
+}
+
+nav ul ul li{
+	float: none;
+}
+
+nav ul li:hover > ul{
+	display: block;
+	transition: 0.6s;
+}
+
+nav ul li:hover > a{
+	transition: 0.6s;
+	background: #1F67A3;
+}
+
+
+
+@media only screen and (max-width : 480px) {
+	.content{
+		margin-top: 180px;
+}
+	footer{
+		margin-left: 70px;
+		margin-top: 50px;
+	}
+}
